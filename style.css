@@ -171,7 +171,8 @@ font-family: 'Victor Mono', monospace; */
 }
 
 .metodos-titulo h4{  
-   font-family: 'Lonely Heart', sans-serif;              font-size: 2rem;
+   font-family: 'Lonely Heart', sans-serif;              
+   font-size: 2rem;
    background-color: rgb(99, 81, 55);
    color: rgb(0, 0, 0);
 }
@@ -239,17 +240,18 @@ font-family: 'Victor Mono', monospace; */
 }
 
 .granel{
-   background-image: url(granel.jpg);
+   background-image: url(./Imagenes/granel.jpg);
    background-size: contain;
 }
 
 .reposteria{
-   background-image: url(reposteria.jpg);
+   background-image: url(./Imagenes/reposteria.jpg);
    background-size: contain;
 }
 
 .barismo{
-   background-image: url(barismo.jpg);
+   background-image: url(./Imagenes/barismo.jpg
+   );
    background-size: cover;
 }
 
