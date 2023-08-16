@@ -27,7 +27,7 @@ font-family: 'Victor Mono', monospace; */
  }
 
  body{
-   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.393)), url(body.jpg);
+   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.393)), url(./Imagitgenes/body.jpg);
    color:rgb(183, 184, 179);
    font-family: 'Jost', sans-serif;
  }
@@ -44,11 +44,12 @@ font-family: 'Victor Mono', monospace; */
    height: 8%;
    display: flex;
    justify-content: space-between;
+   padding: 0 3%;
  }
 
  .iconos img{
    height: 100%;
-   width: 5%;
+   width: 10%;
  }
 
 .portada{
@@ -65,11 +66,10 @@ font-family: 'Victor Mono', monospace; */
    height: 40%;
 }
 
-.portada-img {
-   height: 50%;
-   width: 70%;
-   display: flex;
+.marca img{
+   height: 100%;
 }
+
 
 .noticias{
    height: 15vh;
@@ -92,12 +92,12 @@ font-family: 'Victor Mono', monospace; */
 }
 
 .dia{
-   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.307), rgba(0, 0, 0, 0.804));
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.804));
    background-size: contain;
 }
 
 .especial{
-   background-image:linear-gradient(to top, rgba(159, 14, 14, 0.082), rgba(0, 0, 0, 0.804));
+   background-image:linear-gradient(to top, rgba(10, 10, 10, 0.382), rgba(0, 0, 0, 0.804));
    background-size: contain;
 } 
 
@@ -182,6 +182,7 @@ font-family: 'Victor Mono', monospace; */
    justify-content: center;
    height: 60%;
    align-items: center;
+   gap: 8%;
 }
 
 .metodos-fotos div{
@@ -231,7 +232,7 @@ font-family: 'Victor Mono', monospace; */
    display: flex;
    justify-content: center;
    align-items: center;
-   border: 1px solid white;
+   border: 1px solid rgb(2, 2, 2);
 }
 
 .titulo h2{
@@ -302,7 +303,7 @@ font-family: 'Victor Mono', monospace; */
 }
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 319px){
 
    body{
       display: none;
