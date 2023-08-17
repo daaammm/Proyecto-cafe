@@ -209,9 +209,10 @@ font-family: 'Victor Mono', monospace; */
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
+   flex-grow: 1;
    align-items: center;
    width: 100vw;
-   height: 60vh;
+   height: fit-content;
 }
 
 .extras div{
@@ -259,7 +260,6 @@ font-family: 'Victor Mono', monospace; */
 
 
 .contacto{
-   
    width: 100%;
    height: 50vh;
    display: flex;
@@ -342,7 +342,6 @@ font-family: 'Victor Mono', monospace; */
 
    .iconos-contacto h2{
       align-self: center;
-
    }
 }
 
