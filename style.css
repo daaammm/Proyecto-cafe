@@ -27,8 +27,7 @@ font-family: 'Victor Mono', monospace; */
  }
 
  body{
-   /* background-image: linear-gradient(to left, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.677)), url(/Imagenes/body.jpg); */
-   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.393), url(./Imagenes/6.png));
+   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.393)), url(./Imagenes/body.jpg);
    color:rgb(183, 184, 179);
    font-family: 'Jost', sans-serif;
  }
