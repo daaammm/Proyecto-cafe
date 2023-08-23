@@ -27,8 +27,7 @@ font-family: 'Victor Mono', monospace; */
  }
  
  body{
-   background-image: url(./Imagenes/body.jpg);
-   background-size: cover;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.312), rgba(0, 0, 0, 0)), url(./Imagenes/body.jpg);
    color:rgb(183, 184, 179);
    font-family: 'Jost', sans-serif;
  }
@@ -43,6 +42,7 @@ font-family: 'Victor Mono', monospace; */
 
 .iconos{
    height: 8%;
+   width: 80%;
    display: flex;
    justify-content: space-between;
    padding: 0 3%;
@@ -59,7 +59,7 @@ font-family: 'Victor Mono', monospace; */
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
-   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.645), rgb(15, 15, 15)), url(https://media.giphy.com/media/3o6nV2ErFXV5uUwql2/giphy.gif);
+   background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.59)), url(https://media.giphy.com/media/3o6nV2ErFXV5uUwql2/giphy.gif);
    background-size: cover;
  }
 
@@ -89,32 +89,22 @@ font-family: 'Victor Mono', monospace; */
 
 .noticias div p{
    padding: .5rem;
-   border: .01rem solid white;
 }
 
-.dia{
-   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.804));
-   background-size: contain;
-}
-
-.especial{
-   background-image:linear-gradient(to top, rgba(10, 10, 10, 0.382), rgba(0, 0, 0, 0.804));
-   background-size: contain;
-} 
 
 .menu-bebidas{
-   margin-top: 4%;
    background-color: black;
-   height: 90vh;
+   height: 95vh;
    width: 100vw;
    display: flex;
    flex-direction: column;
    align-items: center;
    padding-top: 1rem;
+   margin-bottom: 3rem;
 }
 
 .menu{
-   width: 90%;
+   width: 100%;
    height: 10%;
    display: flex;
    justify-content: center;
@@ -127,7 +117,7 @@ font-family: 'Victor Mono', monospace; */
 
 .bebidas{
    background-color: black;
-   height: 70%;
+   height: 80%;
    display: flex; 
    flex-wrap: wrap;
    justify-content: center;
@@ -135,24 +125,27 @@ font-family: 'Victor Mono', monospace; */
    gap: 2rem;
 }
 
-.bebidas div{             
-   text-align: center;
-   height: 5rem; /*516px*/
-   width: 7rem;
+.bebidas div{
+   height: 6rem;
+   width: 6rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
+
 
 .bebidas div img{
    height: 100%;
 }
 
 .metodos{
-   margin: 7%;
    display: flex;
    flex-direction: column;
    justify-content: space-around;
    align-items: center;
    height: 50vh;
    background-color: rgba(0, 0, 0, 0.712);
+   
 }
 
 .metodos-titulo{
@@ -160,11 +153,9 @@ font-family: 'Victor Mono', monospace; */
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+   justify-content: end;
    font-size: large;
-   gap: 9%;
-}
-                
+}            
 
 .metodos-titulo h3{
    font-size: 1.5rem;
@@ -173,7 +164,7 @@ font-family: 'Victor Mono', monospace; */
 
 .metodos-titulo h4{  
    font-family: 'Lonely Heart', sans-serif;              
-   font-size: 2rem;
+   font-size: 2.5rem;
    background-color: rgb(99, 81, 55);
    color: rgb(0, 0, 0);
 }
@@ -192,7 +183,6 @@ font-family: 'Victor Mono', monospace; */
    display:flex;
    flex-direction:column;
    flex-grow: 1;  
-   text-align: center;
 }
 
 .metodos-fotos div img{
@@ -200,27 +190,28 @@ font-family: 'Victor Mono', monospace; */
    width: 100%;
 }
 
-.metodos-fotos div img{
-   height: 90%;
+.metodos-fotos div p{
+   font-family: 'Victor Mono', monospace;
+   font-size: .7rem;
+   text-align: center;
 }
 
 .extras{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: center;
-   flex-grow: 1;
-   align-items: center;
-   width: 100vw;
    height: fit-content;
+   margin: 3rem 0;
 }
 
 .extras div{
    background-color: rgba(0, 0, 0, 0.674);
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
-   width: 10rem;
+   flex-grow: 1;
+   width: 11rem;
    height: 10rem;
 }
 
@@ -260,50 +251,54 @@ font-family: 'Victor Mono', monospace; */
 
 
 .contacto{
-   width: 100%;
+   width: 100vw;
    height: 50vh;
    display: flex;
    flex-direction: row;
-   background-color: black;
-}
-
-.mapa{
-   width: 60%;
-   height: 100%;
-   display: flex;
    align-items: center;
-   justify-content: center;
+   background-color: rgba(0, 0, 0, 0.51);
+   
 }
 
-.mapa iframe{
-   width: 70%;
-   height: 70%;
-   border-radius: 10%;
-}
-
-
-.iconos-contacto{
-   width: 40%;
+.iconos-titulo{
+   width: 45%;
    height: 100%;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   flex-wrap: wrap;
-   gap: .6rem;
+   align-items: center;
+   gap: 2rem;
 }
 
-.iconos-contacto h2{
-   color: rgb(171, 167, 167);
+.iconos-titulo p{
+   font-family: 'Victor Mono', monospace;
+   font-weight: 700;
+   background-color: rgba(0, 0, 0, 0.784);
 }
 
-.iconos-contacto img{
-   margin: 1rem;
+.iconos-titulo div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.5rem;
+}
+
+.iconos-titulo img{
    border: .3rem solid;
    border-radius: 100%;
-   height: 3rem;
-   width: 3rem;
+   height: 3.5rem;
+   width: 3.5rem;
 }
 
+.mapa{
+   height: 45%;
+   width: 50%;
+   display: flex;
+}
+
+.mapa iframe{
+   height: 100%;
+   width: 100%;
+}
 
 @media only screen and (max-width: 319px){
 
@@ -313,6 +308,10 @@ font-family: 'Victor Mono', monospace; */
 }
 
 @media only screen and (min-width: 510px){
+
+   .iconos{
+      width: 60%; 
+   }
 
    .bebidas div{             
       height: 7rem; /*516px*/
@@ -324,25 +323,20 @@ font-family: 'Victor Mono', monospace; */
    }
 
    .extras{
-      width: 100vw;
+      width: 96vw;
       height: 40vh;
       align-items: start;
    }
 
    .extras div{
-      flex-grow: 1;
       width: 23%;
+      height: 40vh;
    }
 
-   .iconos-contacto{
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
+   .mapa{
+      padding-right: 3rem;
    }
 
-   .iconos-contacto h2{
-      align-self: center;
-   }
 }
 
 
